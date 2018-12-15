@@ -1,0 +1,132 @@
+body, html {
+    font-family: Arial;
+    font-size: 12px;
+    color: #000;
+}
+
+p {
+    display: inline;
+}
+
+img {
+    border: 1px solid #000;
+}
+
+#logo {
+    width: 100%;
+}
+
+.margin-top60 {
+    margin-top: 60px;
+}
+
+h2 {
+    margin: 0 !important;
+}
+
+.padding-top60 {
+    padding-top: 60px;
+}
+
+.padding-bottom60 {
+    padding-bottom: 60px;
+}
+
+.padding-top40 {
+    padding-top: 40px;
+}
+
+.padding-bottom40 {
+    padding-bottom: 40px;
+}
+
+#info {
+    color: #ffffff;
+}
+
+#info h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#info .app img {
+    margin-top: 10px;
+    width: 130px;
+    height: 36px;
+}
+
+#info .app img {
+    padding: 0 8px;
+}
+
+#info .apps {
+    padding-left: 30px;
+}
+
+#info ul {
+    list-style: none;
+    margin-top: 25px;
+}
+
+#info ul li {
+    padding: 7px 0;
+}
+
+#info ul li p span {
+    padding-left: 43px;
+    display: block;
+}
+
+#info ul li > span {
+    margin-right: 10px;
+}
+
+#info .text {
+    font-size: 11px;
+}
+
+#desc h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ababab;
+}
+
+#footer h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#footer h4 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#desc .info {
+    margin-top: 20px;
+}
+
+#desc .info, #footer .info {
+    text-align: center;
+}
+
+#desc .info i, #footer .info i {
+    padding-bottom: 15px;
+}
+
+.action {
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+
+}
+#header, #footer {
+    background: #ababab;
+}
