@@ -12,6 +12,53 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
 </head>
 <body>
 
@@ -24,15 +71,15 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="#">Головна <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Головна <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="advantages.html">Переваги</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.html">Про компанію</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="contact.html">Контакти</a>
       </li>
     </ul>
@@ -94,139 +141,39 @@
     <div id="desc">
         <div class="row padding-top40">
             <div class="col-md-12">
-                <h3>Переваги над конкурентами</h3>
+                <h3>Контакти</h3>
             </div>
         </div>
         <div class="container">
-            <table class="table table-bordered">
-  <!-- Table head -->
-  <thead>
-    <tr>
-      <th>Назва сервісу</th>
-      <th>Розумний будільнік</th>
-      <th>Робота в оффлайні</th>
-      <th>Нагадування про виконання</th>
-      <th>Онлайн чатінг</th>
-      <th>Сповіщення від старост</th>
-    </tr>
-  </thead>
-  <!-- Table head -->
-
-  <!-- Table body -->
-  <tbody>
-    <tr>
-      <td>Рассписание уроков</td>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-    </tr>
-    <tr>
-      <td>Online schedule</td>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-    </tr>
-    <tr>
-      <td>My Schedule</td>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-    </tr>
-    <tr>
-      <td>Твой помощник</td>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-    </tr>
-    <tr>
-      <td>Рассписание всегда с тобой</td>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-    </tr>
-    <tr>
-      <td>Незабудка</td>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/2.png" width="30">
-      </th>
-      <th scope="row">
-        <img src="img/1.png" width="30">
-      </th>
-    </tr>
-  </tbody>
-  <!-- Table body -->
-</table>
-        </div>
+            <div class="container">
+    <p>Моб тел.: +380668106444; +380632289564; +380633564596</br>
+    e-mail: anton.a.chernysh@gmail.com</p>
+  <div class="row">
+    <div class="column">
+      <img src="img/map.jpg" style="width:100%">
     </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Імя</label>
+        <input type="text" id="fname" name="firstname" placeholder="Ваше Імя..">
+        <label for="lname">Призвіще</label>
+        <input type="text" id="lname" name="lastname" placeholder="Ваше Призвіще..">
+        <label for="country">Місто</label>
+        <select id="country" name="country">
+          <option value="australia">Київ</option>
+          <option value="canada">Львів</option>
+          <option value="usa">Харьків</option>
+        </select>
+        <label for="subject">Повідомлення</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162757.72582758658!2d30.392608824595417!3d50.40217023835585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1544972056694" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <br><br><br></div>
 </div>
 <div id="footer">
     <div class="container">
